@@ -1,27 +1,37 @@
-# Met Art Explorer - Projeto React + API
+# MET Art Explorer 🎨 — Projeto React + API
 
-## Descrição
-Este projeto foi desenvolvido como parte da UC00610 (Projeto 1). O objetivo é explorar o desenvolvimento de interfaces dinâmicas com React e Bootstrap, consumindo dados da API pública do **The Metropolitan Museum of Art (The Met)**.
+## 📝 Descrição
+Este projeto foi desenvolvido no âmbito da UC00610 (Projeto 1). O objetivo principal é a criação de uma interface dinâmica utilizando **React** e **Bootstrap**, consumindo dados reais da API do **The Metropolitan Museum of Art (The Met)**. 
 
-A aplicação permite visualizar uma galeria de pinturas europeias, realizar pesquisas por ID e consultar detalhes específicos de cada obra numa interface responsiva.
+A aplicação permite explorar uma galeria de pinturas europeias, realizar pesquisas dinâmicas por título ou artista e consultar detalhes específicos de cada obra numa interface moderna e totalmente responsiva.
 
-## Tecnologias Utilizadas
-* **React + Vite**: Para a estrutura e build do projeto.
-* **Bootstrap**: Para o design responsivo e componentes visuais (cards, modais, navbar).
-* **The Met API**: Fonte de dados externa# Funcionalidades Implementadas
-* **Listagem Dinâmica**: Consumo de dados via `fetch` com tratamento de estados de carregamento e erro.
-* **Componentização**: Uso de componentes reutilizáveis para Navbar, Footer e ArtCards.
-* **Pesquisa**: Filtro dinâmico de obras (Funcionalidade Extra).
-* **Detalhes**: Visualização expandida de cada obra através de Modais.
+---
 
-## Como Executar
-1. Clone o repositório ou extraia o ficheiro .zip.
-2. No terminal, execute `npm install` para instalar as dependências.
-3. Execute `npm run dev` para iniciar o servidor de desenvolvimento.
-4. Abra o link fornecido no terminal (geralmente `http://localhost:5173`).
+## 🚀 Links do Projeto
+* **Repositório GitHub:** https://github.com/Antoni-Costa/UC00610-Lab10.git
+* **Site Publicado (Vercel):** https://uc-00610-met-art-exhibit.vercel.app/
 
-## Autor
-* **António Costa** Antonio.Costa.T0131685@edu.atec.pt – Março de 2026
+---
 
-## Formador
-* **Nelson Santos**
+## ✨ Funcionalidades Implementadas
+* **Navegação (SPA):** Implementação de rotas com `react-router-dom` para alternar entre Home e Gallery sem recarregar a página.
+* **Listagem Dinâmica:** Consumo de dados via `fetch` com tratamento de estados de carregamento e erro.
+* **Pesquisa Avançada (Extra):** Filtro dinâmico que permite pesquisar por **Título** ou **Artista** na galeria.
+* **Componentização:** Uso de componentes reutilizáveis (`Navbar`, `Footer`, `ArtCard`).
+* **Detalhes:** Visualização de cada obra através de Bootstrap.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+* **React + Vite:** Estrutura e build otimizado.
+* **Bootstrap 5:** Design responsivo e componentes visuais.
+* **React Router:** Gestão de rotas da aplicação.
+* **The Met API:** Fonte de dados externa (Department ID 11 - European Paintings).
+
+---
+
+## 💻 Como Executar
+1. Clone o repositório ou extraia o ficheiro `.zip`.
+2. No terminal, aceda à pasta do projeto:
+   ```bash
+   cd nome-da-tua-pasta
