@@ -25,7 +25,7 @@ A aplicação permite explorar uma galeria de pinturas europeias, realizar pesqu
 ## 🛠️ Tecnologias Utilizadas
 * **React + Vite:** Estrutura e build otimizado.
 * **Bootstrap 5:** Design responsivo e componentes visuais.
-* **React Router:** Gestão de rotas da aplicação.
+* **React Router:** Para Gestão de rotas da aplicação.
 * **The Met API:** Fonte de dados externa (Department ID 11 - European Paintings).
 
 ---
@@ -34,4 +34,4 @@ A aplicação permite explorar uma galeria de pinturas europeias, realizar pesqu
 1. Clone o repositório ou extraia o ficheiro `.zip`.
 2. No terminal, aceda à pasta do projeto:
    ```bash
-   cd nome-da-tua-pasta
+   cd nome-da-pasta
